@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farah Mezdari | Développeuse Web & Logiciel - BTS SIO SLAM</title>
+  <meta name="description" content="Portfolio de Farah Mezdari, étudiante en BTS SIO option SLAM. Découvrez mes compétences (Vue.js, PHP, Java, Python, SQL, JavaScript, HTML, CSS), mes projets, ma veille technologique et mes coordonnées.">
+  <meta name="keywords" content="Farah Mezdari, BTS SIO SLAM, Portfolio développeur, Vue.js, PHP, Java, Python, SQL, HTML, CSS, JavaScript, Alternance, Stage">
+  <meta name="author" content="Farah Mezdari">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Farah Mezdari | Portfolio BTS SIO SLAM">
+  <meta property="og:description" content="Étudiante en BTS SIO option SLAM passionnée par le développement web et logiciel.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter & JetBrains Mono / Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Feuille de style principale -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Éléments de fond décoratifs modernes -->
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-grid-overlay"></div>
+
+  <!-- Barre de navigation -->
+  <header class="navbar-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-code">&lt;</span><span class="brand-name">Farah</span><span class="brand-dot">.</span><span class="brand-sub">Mezdari</span><span class="brand-code">/&gt;</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Accueil</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">À propos</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Compétences</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projets</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Expériences</a></li>
+          <li class="nav-item"><a href="#tech-watch" class="nav-link">Veille</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions-mobile">
+          <button class="palette-toggle-btn palette-toggle-mobile" id="palette-toggle-btn-mobile" aria-label="Changer de palette de couleurs">
+            <span class="palette-toggle-icon">🌸</span>
+            <span class="palette-toggle-label">Palette Sakura</span>
+          </button>
+          <a href="#contact" class="btn btn-primary btn-sm">Me contacter</a>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="palette-toggle-btn" id="palette-toggle-btn" aria-label="Changer de palette de couleurs" title="Changer de palette (Sakura, Sauge, Moka)">
+          <span class="palette-toggle-icon">🌸</span>
+          <span class="palette-toggle-label">Palette Sakura</span>
+        </button>
+        <a href="#contact" class="btn btn-outline btn-sm nav-cta-desktop">
+          <i class="fa-solid fa-paper-plane"></i> Contact
+        </a>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Ouvrir le menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section Accueil / Hero -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Étudiante en BTS SIO SLAM &bull; En recherche de stage / alternance</span>
+          </div>
+
+          <h1 class="hero-title">
+            Bonjour, je suis <span class="gradient-text">Farah Mezdari</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Développeuse <span class="typing-highlight">Web & Logiciel</span>
+          </h2>
+
+          <p class="hero-description">
+            Étudiante en <strong>BTS SIO (Services Informatiques aux Organisations)</strong>, option <strong>SLAM</strong> (Solutions Logicielles et Applications Métiers). 
+            Passionnée par l'architecture logicielle, le développement web réactif et la conception de bases de données fiables.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-laptop-code"></i> Découvrir mes projets
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-envelope"></i> Me contacter
+            </a>
+            <a href="#about" class="btn btn-ghost">
+              <i class="fa-solid fa-circle-user"></i> En savoir plus
+            </a>
+          </div>
+
+          <!-- Accès direct aux réseaux sociaux avec logos officiels -->
+          <div class="hero-socials">
+            <span class="socials-label">Profils professionnels :</span>
+            <a href="https://www.linkedin.com/in/farah-mezdari-b2598538a/" target="_blank" rel="noopener noreferrer" class="social-hero-btn linkedin" title="Profil LinkedIn de Farah Mezdari">
+              <img src="assets/icons/linkedin.svg" alt="Logo LinkedIn" class="social-svg-icon">
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/farahymezdari" target="_blank" rel="noopener noreferrer" class="social-hero-btn github" title="Profil GitHub de Farah Mezdari (@farahymezdari)">
+              <img src="assets/icons/github.svg" alt="Logo GitHub" class="social-svg-icon">
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Terminal interactif de présentation -->
+        <div class="hero-terminal">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <span class="terminal-title">farah_mezdari.ts</span>
+              <span class="terminal-badge">BTS SIO SLAM</span>
+            </div>
+            <div class="terminal-body">
+              <pre><code><span class="code-keyword">const</span> <span class="code-var">candidate</span>: <span class="code-type">DeveloperProfile</span> = {
+  <span class="code-prop">name</span>: <span class="code-str">"Farah Mezdari"</span>,
+  <span class="code-prop">cursus</span>: <span class="code-str">"BTS SIO Option SLAM"</span>,
+  <span class="code-prop">role</span>: <span class="code-str">"Développeuse Web & Logiciel"</span>,
+  <span class="code-prop">technologies</span>: [
+    <span class="code-str">"Vue.js"</span>, <span class="code-str">"JavaScript"</span>, <span class="code-str">"HTML / CSS"</span>,
+    <span class="code-str">"PHP"</span>, <span class="code-str">"Java"</span>, <span class="code-str">"Python"</span>, <span class="code-str">"SQL"</span>
+  ],
+  <span class="code-prop">softSkills</span>: [
+    <span class="code-str">"Rigueur"</span>, <span class="code-str">"Esprit d'analyse"</span>, <span class="code-str">"Travail d'équipe"</span>
+  ],
+  <span class="code-prop">disponibilite</span>: <span class="code-str">"Stage / Alternance"</span>,
+  <span class="code-prop">statut</span>: <span class="code-bool">true</span>
+};
+
+<span class="code-comment">// Prête pour de nouveaux projets innovants</span>
+<span class="code-func">candidate</span>.<span class="code-method">startBuilding</span>();</code></pre>
+            </div>
+            <div class="terminal-footer">
+              <span class="status-indicator online"></span>
+              <span class="status-text">À l'écoute d'opportunités en développement</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: À propos -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">01. Présentation</span>
+          <h2 class="section-title">À propos</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-column">
+            <h3 class="about-heading">
+              Concevoir des logiciels et applications web robustes, intuitifs et évolutifs.
+            </h3>
+            <p class="about-paragraph">
+              Je m'appelle <strong>Farah Mezdari</strong>, actuellement étudiante en <strong>BTS SIO (Services Informatiques aux Organisations)</strong>, 
+              option <strong>SLAM (Solutions Logicielles et Applications Métiers)</strong>. 
+            </p>
+            <p class="about-paragraph">
+              L'option SLAM forme des spécialistes capables de participer à la conception, au développement, à l'intégration et à la maintenance 
+              des solutions logicielles d'une organisation. Durant mon cursus, j'apprends à analyser des cahiers des charges précis, à modéliser 
+              des données relationnelles (MCD/MLD) et à développer en suivant des architectures logicielles reconnues telles que le patron <strong>MVC</strong>.
+            </p>
+            <p class="about-paragraph">
+              Passionnée par les technologies du web et le génie logiciel, je m'investis particulièrement dans la qualité du code, 
+              le respect des bonnes pratiques de sécurité (validation des entrées, prévention des injections SQL, hashage) et l'ergonomie des interfaces. 
+              Je suis activement à la recherche d'une opportunité (stage ou contrat d'alternance) afin d'apporter ma motivation au sein d'une équipe technique.
+            </p>
+
+            <div class="about-highlights-pills">
+              <span class="pill"><i class="fa-solid fa-check"></i> Architecture MVC</span>
+              <span class="pill"><i class="fa-solid fa-check"></i> POO (Java, PHP, Python)</span>
+              <span class="pill"><i class="fa-solid fa-check"></i> Modélisation BDD (SQL)</span>
+              <span class="pill"><i class="fa-solid fa-check"></i> Interfaces modernes (Vue.js)</span>
+              <span class="pill"><i class="fa-solid fa-check"></i> Gestion de versions (Git)</span>
+            </div>
+          </div>
+
+          <div class="about-cards-column">
+            <div class="feature-card">
+              <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div class="card-content">
+                <h4>Le BTS SIO SLAM</h4>
+                <p>Formation technique axée sur le développement logiciel, la programmation orientée objet, le web applicatif et la gestion de bases de données.</p>
+              </div>
+            </div>
+
+            <div class="feature-card">
+              <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+              <div class="card-content">
+                <h4>Conception & Persistance</h4>
+                <p>Création de schémas relationnels normalisés, requêtage SQL poussé (jointures, transactions) et interaction avec MySQL / PostgreSQL via PDO & JDBC.</p>
+              </div>
+            </div>
+
+            <div class="feature-card">
+              <div class="card-icon"><i class="fa-solid fa-users-gear"></i></div>
+              <div class="card-content">
+                <h4>Ateliers Professionnels (AP)</h4>
+                <p>Projets en équipe simulant des situations d'entreprises : formalisation des besoins, méthode Agile/Scrum, réunions de cadrage et livrables techniques.</p>
+              </div>
+            </div>
+
+            <div class="feature-card">
+              <div class="card-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+              <div class="card-content">
+                <h4>Veille Technologique</h4>
+                <p>Suivi rigoureux et structuré des avancées du web et du logiciel pour anticiper les évolutions des standards et outils de développement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chiffres clés -->
+        <div class="stats-banner">
+          <div class="stat-item">
+            <span class="stat-number">2 ans</span>
+            <span class="stat-desc">Formation technique BTS SIO</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">8</span>
+            <span class="stat-desc">Technologies & Langages clés</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-desc">Projets académiques & persos</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-desc">Investissement & Motivation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Compétences -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">02. Technologies</span>
+          <h2 class="section-title">Compétences</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Les langages, frameworks et outils que je pratique dans le cadre de mon BTS SIO SLAM et de mes réalisations.
+          </p>
+        </div>
+
+        <!-- Filtres des compétences -->
+        <div class="skills-filter-buttons">
+          <button class="filter-btn active" data-filter="all">Toutes</button>
+          <button class="filter-btn" data-filter="frontend">Web Front-End</button>
+          <button class="filter-btn" data-filter="backend">Back-End & Logiciel</button>
+          <button class="filter-btn" data-filter="database">Bases de Données</button>
+          <button class="filter-btn" data-filter="tools">Outils & Méthodes</button>
+        </div>
+
+        <!-- Grille des compétences -->
+        <div class="skills-grid" id="skills-grid">
+
+          <!-- HTML -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card-top">
+              <div class="skill-icon html-icon">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">HTML</h4>
+                <span class="skill-badge">Front-End</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Structuration sémantique HTML5, balisage accessible (normes WAI-ARIA), formulaires avancés et intégration SEO.
+            </p>
+            <div class="skill-tags">
+              <span>HTML5</span>
+              <span>Sémantique</span>
+              <span>Formulaires</span>
+              <span>Accessibilité</span>
+            </div>
+          </div>
+
+          <!-- CSS -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card-top">
+              <div class="skill-icon css-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">CSS</h4>
+                <span class="skill-badge">Front-End</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Conception de mises en page fluides avec CSS Grid et Flexbox, Media Queries (Responsive), variables CSS et animations.
+            </p>
+            <div class="skill-tags">
+              <span>CSS3</span>
+              <span>Flexbox</span>
+              <span>CSS Grid</span>
+              <span>Responsive</span>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card-top">
+              <div class="skill-icon js-icon">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">JavaScript</h4>
+                <span class="skill-badge">Front-End & Logique</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              JavaScript moderne (ES6+), manipulation dynamique du DOM, requêtes asynchrones (Fetch API, Promises) et gestion des événements.
+            </p>
+            <div class="skill-tags">
+              <span>ES6+</span>
+              <span>DOM</span>
+              <span>Fetch API</span>
+              <span>Async/Await</span>
+            </div>
+          </div>
+
+          <!-- Vue.js -->
+          <div class="skill-card featured-skill" data-category="frontend">
+            <div class="skill-card-top">
+              <div class="skill-icon vue-icon">
+                <i class="fa-brands fa-vuejs"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">Vue.js</h4>
+                <span class="skill-badge highlight">Framework Web</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Conception d'applications Single Page (SPA), architecture par composants réutilisables, réactivité, Vue Router et consommation d'APIs.
+            </p>
+            <div class="skill-tags">
+              <span>Vue 3</span>
+              <span>Composants</span>
+              <span>SPA</span>
+              <span>Vue Router</span>
+            </div>
+          </div>
+
+          <!-- PHP -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card-top">
+              <div class="skill-icon php-icon">
+                <i class="fa-brands fa-php"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">PHP</h4>
+                <span class="skill-badge">Back-End Web</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Architecture MVC, Programmation Orientée Objet (POO), interactions BDD sécurisées avec PDO, sessions et validation des données.
+            </p>
+            <div class="skill-tags">
+              <span>PHP 8</span>
+              <span>MVC</span>
+              <span>PDO</span>
+              <span>POO</span>
+            </div>
+          </div>
+
+          <!-- Java -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card-top">
+              <div class="skill-icon java-icon">
+                <i class="fa-brands fa-java"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">Java</h4>
+                <span class="skill-badge">Génie Logiciel</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Paradigme Orienté Objet strict (classes, héritage, interfaces, polymorphisme), collections, persistance avec JDBC et interfaces graphiques.
+            </p>
+            <div class="skill-tags">
+              <span>POO</span>
+              <span>JDBC</span>
+              <span>Swing / JavaFX</span>
+              <span>Collections</span>
+            </div>
+          </div>
+
+          <!-- Python -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card-top">
+              <div class="skill-icon python-icon">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">Python</h4>
+                <span class="skill-badge">Scripting & Données</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Écriture de scripts d'automatisation, algorithmique, traitement de fichiers (JSON, CSV) et interaction avec des APIs tierces.
+            </p>
+            <div class="skill-tags">
+              <span>Python 3</span>
+              <span>Automatisation</span>
+              <span>Algorithmique</span>
+              <span>Scripts</span>
+            </div>
+          </div>
+
+          <!-- SQL -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-card-top">
+              <div class="skill-icon sql-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">SQL</h4>
+                <span class="skill-badge">Bases de Données</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Modélisation Merise (MCD/MLD), requêtes complexes (jointures internes/externes, sous-requêtes, GROUP BY), indexation et intégrité sous MySQL.
+            </p>
+            <div class="skill-tags">
+              <span>MySQL</span>
+              <span>PostgreSQL</span>
+              <span>MCD / MLD</span>
+              <span>Jointures SQL</span>
+            </div>
+          </div>
+
+          <!-- Git & GitHub -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon git-icon">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">Git & GitHub</h4>
+                <span class="skill-badge">Versioning</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              Gestion de versions distribuée, branches, commits conventionnels, résolutions de conflits et collaboration sur dépôts distants.
+            </p>
+            <div class="skill-tags">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Branches</span>
+            </div>
+          </div>
+
+          <!-- Outils de développement -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon tools-icon">
+                <i class="fa-solid fa-toolbox"></i>
+              </div>
+              <div class="skill-info">
+                <h4 class="skill-title">Environnement de travail</h4>
+                <span class="skill-badge">Outils BTS</span>
+              </div>
+            </div>
+            <p class="skill-desc">
+              VS Code, Postman pour tester les APIs REST, phpMyAdmin / MySQL Workbench, méthode Agile (Scrum / Kanban).
+            </p>
+            <div class="skill-tags">
+              <span>VS Code</span>
+              <span>Postman</span>
+              <span>phpMyAdmin</span>
+              <span>Scrum</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Projets -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">03. Réalisations</span>
+          <h2 class="section-title">Projets</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Sélection de projets d'ateliers professionnels BTS SIO SLAM et de développements personnels.
+          </p>
+        </div>
+
+        <!-- Filtres de projets -->
+        <div class="project-filter-buttons">
+          <button class="p-filter-btn active" data-pfilter="all">Tous</button>
+          <button class="p-filter-btn" data-pfilter="web">Web (Vue.js & PHP)</button>
+          <button class="p-filter-btn" data-pfilter="java">Java (Logiciel)</button>
+          <button class="p-filter-btn" data-pfilter="python">Python & Données</button>
+        </div>
+
+        <!-- Grille de projets -->
+        <div class="projects-grid">
+
+          <!-- Projet 1: GSB (Web PHP & Vue.js) -->
+          <article class="project-card" data-pcat="web">
+            <div class="project-header">
+              <div class="project-folder-icon">
+                <i class="fa-regular fa-folder-open"></i>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/farahymezdari" target="_blank" rel="noopener noreferrer" class="project-link" title="Code source GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-badge-type">Atelier BTS SIO &bull; Web & API</div>
+            <h3 class="project-title">GSB - Portail Médical & Gestion de Frais</h3>
+            <p class="project-description">
+              Plateforme web complète permettant aux délégués médicaux de saisir et suivre leurs fiches de frais mensuelles, 
+              avec interface d'administration comptable pour la validation et le contrôle.
+            </p>
+
+            <div class="project-features">
+              <span><i class="fa-solid fa-angle-right"></i> Architecture MVC en PHP avec PDO</span>
+              <span><i class="fa-solid fa-angle-right"></i> Authentification sécurisée & gestion des rôles</span>
+              <span><i class="fa-solid fa-angle-right"></i> Interface réactive en Vue.js pour les formulaires</span>
+            </div>
+
+            <div class="project-tech-stack">
+              <span>PHP</span>
+              <span>Vue.js</span>
+              <span>MySQL</span>
+              <span>JavaScript</span>
+              <span>CSS3</span>
+            </div>
+
+            <div class="project-footer-btn">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-project="gsb">
+                <i class="fa-solid fa-circle-info"></i> Fiche descriptive & Référentiel SLAM
+              </button>
+            </div>
+          </article>
+
+          <!-- Projet 2: TechInterv (Java POO) -->
+          <article class="project-card" data-pcat="java">
+            <div class="project-header">
+              <div class="project-folder-icon">
+                <i class="fa-regular fa-folder-open"></i>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/farahymezdari" target="_blank" rel="noopener noreferrer" class="project-link" title="Code source GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-badge-type">Application Lourde &bull; Java POO</div>
+            <h3 class="project-title">TechInterv - Planification d'Interventions</h3>
+            <p class="project-description">
+              Application de bureau pour la gestion d'un parc de techniciens de maintenance informatique : 
+              attribution des tickets d'incidents, gestion des plannings et génération de rapports d'activité.
+            </p>
+
+            <div class="project-features">
+              <span><i class="fa-solid fa-angle-right"></i> Conception Orientée Objet en Java</span>
+              <span><i class="fa-solid fa-angle-right"></i> Persistance des données via connecteur JDBC</span>
+              <span><i class="fa-solid fa-angle-right"></i> Interface utilisateur interactive</span>
+            </div>
+
+            <div class="project-tech-stack">
+              <span>Java</span>
+              <span>JavaFX</span>
+              <span>SQL</span>
+              <span>MySQL</span>
+              <span>POO</span>
+            </div>
+
+            <div class="project-footer-btn">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-project="techinterv">
+                <i class="fa-solid fa-circle-info"></i> Fiche descriptive & Référentiel SLAM
+              </button>
+            </div>
+          </article>
+
+          <!-- Projet 3: MediStock (SPA Vue.js) -->
+          <article class="project-card" data-pcat="web">
+            <div class="project-header">
+              <div class="project-folder-icon">
+                <i class="fa-regular fa-folder-open"></i>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/farahymezdari" target="_blank" rel="noopener noreferrer" class="project-link" title="Code source GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-badge-type">Front-End &bull; Single Page App</div>
+            <h3 class="project-title">MediStock - Gestion d'Inventaire en Temps Réel</h3>
+            <p class="project-description">
+              Application web Single Page Application (SPA) développée sous Vue.js pour la consultation instantanée, 
+              le filtrage dynamique de produits et la détection automatique des seuils de réapprovisionnement.
+            </p>
+
+            <div class="project-features">
+              <span><i class="fa-solid fa-angle-right"></i> Découpage modulaire en composants Vue.js</span>
+              <span><i class="fa-solid fa-angle-right"></i> Consommation d'APIs RESTful asynchrones</span>
+              <span><i class="fa-solid fa-angle-right"></i> Recherche instantanée et filtres réactifs</span>
+            </div>
+
+            <div class="project-tech-stack">
+              <span>Vue.js</span>
+              <span>JavaScript</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>REST API</span>
+            </div>
+
+            <div class="project-footer-btn">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-project="medistock">
+                <i class="fa-solid fa-circle-info"></i> Fiche descriptive & Référentiel SLAM
+              </button>
+            </div>
+          </article>
+
+          <!-- Projet 4: PyWatch (Python & Veille) -->
+          <article class="project-card" data-pcat="python">
+            <div class="project-header">
+              <div class="project-folder-icon">
+                <i class="fa-regular fa-folder-open"></i>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/farahymezdari" target="_blank" rel="noopener noreferrer" class="project-link" title="Code source GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-badge-type">Scripting &bull; Automatisation Python</div>
+            <h3 class="project-title">PyWatch - Automatisation & Veille Énergie IA</h3>
+            <p class="project-description">
+              Script Python modulaire conçu pour collecter et trier automatiquement les flux d'actualités (RSS) 
+              axés sur la consommation énergétique de l'IA, les datacenters et les pratiques de Green IT.
+            </p>
+
+            <div class="project-features">
+              <span><i class="fa-solid fa-angle-right"></i> Extraction de flux XML/RSS et traitement de données</span>
+              <span><i class="fa-solid fa-angle-right"></i> Persistance locale sous base SQLite</span>
+              <span><i class="fa-solid fa-angle-right"></i> Exportation automatique en Markdown & JSON</span>
+            </div>
+
+            <div class="project-tech-stack">
+              <span>Python</span>
+              <span>SQL</span>
+              <span>SQLite</span>
+              <span>JSON</span>
+              <span>Scripting</span>
+            </div>
+
+            <div class="project-footer-btn">
+              <button class="btn btn-sm btn-outline open-modal-btn" data-project="pywatch">
+                <i class="fa-solid fa-circle-info"></i> Fiche descriptive & Référentiel SLAM
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal pour les détails de projet -->
+    <div class="modal-overlay" id="project-modal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-labelledby="modal-title">
+        <button class="modal-close-btn" id="modal-close-btn" aria-label="Fermer la modale">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="modal-body" id="modal-body">
+          <!-- Injecté par JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: Expériences & Formation -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">04. Parcours</span>
+          <h2 class="section-title">Expériences</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Mon cursus en informatique de gestion et mes expériences professionnelles.
+          </p>
+        </div>
+
+        <div class="timeline">
+
+          <!-- Étape 1 : BTS SIO SLAM -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 - 2026 (En cours)</div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <h3>BTS Services Informatiques aux Organisations (SIO)</h3>
+                <span class="timeline-subtitle">Option SLAM (Solutions Logicielles et Applications Métiers)</span>
+              </div>
+              <p class="timeline-text">
+                Formation axée sur le développement d'applications métiers, la gestion des systèmes d'information 
+                et la sécurité informatique. Préparation active aux épreuves certificatives du BTS (E4, E5 et E6).
+              </p>
+              <ul class="timeline-bullets">
+                <li>Développement logiciel orienté objet (Java, PHP, Python) et web (HTML, CSS, JavaScript, Vue.js)</li>
+                <li>Conception, modélisation et administration de bases de données relationnelles avec SQL</li>
+                <li>Gestion de projets informatiques selon les méthodologies Agiles et bonnes pratiques Git</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>BTS SIO SLAM</span>
+                <span>Génie Logiciel</span>
+                <span>POO</span>
+                <span>SQL</span>
+                <span>Architecture MVC</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Étape 2 : Stage Développeuse Web -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Stage de 1ère année BTS (7 semaines)</div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <h3>Stage Développeuse Web & Applicatif</h3>
+                <span class="timeline-subtitle">Entreprise partenaire &bull; Immersion professionnelle</span>
+              </div>
+              <p class="timeline-text">
+                Participation au développement de fonctionnalités au sein d'une application de gestion d'entreprise.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Intégration d'interfaces web responsives et dynamiques en HTML, CSS et JavaScript</li>
+                <li>Développement de requêtes SQL pour l'extraction de données et génération de rapports</li>
+                <li>Correction d'anomalies, refactoring de code et rédaction de documentations techniques</li>
+                <li>Collaboration au sein de l'équipe de développement avec versioning sous Git/GitHub</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Développement Web</span>
+                <span>JavaScript</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>Git</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Étape 3 : Ateliers de Professionnalisation -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 - 2025</div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <h3>Ateliers de Professionnalisation (AP)</h3>
+                <span class="timeline-subtitle">Projets collaboratifs en contexte d'entreprise</span>
+              </div>
+              <p class="timeline-text">
+                Mise en pratique transversale des compétences du référentiel SLAM en réponse à des contextes métier réalistes.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Analyse du cahier des charges, modélisation conceptuelle (MCD) et relationnelle (MLD)</li>
+                <li>Développement en équipe, revue de code et tests de validation fonctionnelle</li>
+                <li>Soutenances et présentations orales des choix d'architecture applicative</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Gestion de Projet</span>
+                <span>UML / Merise</span>
+                <span>Travail d'équipe</span>
+                <span>Qualité de code</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Étape 4 : Baccalauréat -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024</div>
+            <div class="timeline-card">
+              <div class="timeline-card-header">
+                <h3>Baccalauréat</h3>
+                <span class="timeline-subtitle">Enseignement général et technologique &bull; Mention</span>
+              </div>
+              <p class="timeline-text">
+                Acquisition des fondamentaux en raisonnement logique, sciences et découverte de l'algorithmique, 
+                confirmant mon orientation vers les études supérieures en informatique appliquée.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Veille Technologique -->
+    <section class="section tech-watch-section" id="tech-watch">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">05. Veille</span>
+          <h2 class="section-title">Veille technologique</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Composante essentielle de l'épreuve E6 du BTS SIO SLAM : méthodologie de veille et analyse des tendances logicielles.
+          </p>
+        </div>
+
+        <!-- Sujet de veille principal -->
+        <div class="tech-watch-hero">
+          <div class="watch-topic-badge">
+            <i class="fa-solid fa-bolt"></i> Thématique de Veille Principale
+          </div>
+          <h3 class="watch-topic-title">
+            « La consommation énergétique de l’IA »
+          </h3>
+          <p class="watch-topic-desc">
+            Analyse de l'impact environnemental et de l'empreinte carbone liés à l'essor des modèles d'Intelligence Artificielle. 
+            Étude comparative entre les phases d'entraînement intensif et d'inférence quotidienne, et exploration des solutions 
+            du génie logiciel : modèles légers et frugaux (SLMs), quantification algorithmique et pratiques d'éco-conception logicielle (Green IT).
+          </p>
+        </div>
+
+        <!-- Boîte des outils de veille -->
+        <div class="methodology-box">
+          <h4 class="methodology-title"><i class="fa-solid fa-toolbox"></i> Outils & Démarche de Veille</h4>
+          <div class="tools-grid">
+            <div class="tool-item">
+              <i class="fa-solid fa-rss"></i>
+              <div>
+                <strong>Feedly & Flux Spécialisés</strong>
+                <p>Suivi de publications Green IT, blogs du Shift Project, de GreenIT.fr, de l'ADEME et d'ingénierie logicielle durable.</p>
+              </div>
+            </div>
+            <div class="tool-item">
+              <i class="fa-brands fa-google"></i>
+              <div>
+                <strong>Google Alerts</strong>
+                <p>Alertes configurées : <em>"consommation énergétique IA"</em>, <em>"Green AI"</em>, <em>"empreinte carbone datacenters"</em>, <em>"frugalité algorithmique"</em>.</p>
+              </div>
+            </div>
+            <div class="tool-item">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <strong>Outils de Mesure Open Source</strong>
+                <p>Veille sur les outils d'audit d'empreinte carbone logicielle : <em>CodeCarbon</em>, <em>Scaphandre</em>, <em>Kepler</em>.</p>
+              </div>
+            </div>
+            <div class="tool-item">
+              <i class="fa-solid fa-newspaper"></i>
+              <div>
+                <strong>Rapports & Médias Scientifiques</strong>
+                <p>Études de l'Agence Internationale de l'Énergie (AIE), publications CNRS / INRIA, documentation Hugging Face Energy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cartes d'articles et d'analyses -->
+        <div class="watch-articles-grid">
+
+          <article class="watch-card">
+            <div class="watch-card-meta">
+              <span class="watch-date"><i class="fa-regular fa-calendar"></i> 2026</span>
+              <span class="watch-source">Infrastructure & Énergie</span>
+            </div>
+            <h4 class="watch-card-title">Entraînement vs Inférence : L'explosion de la demande électrique des Datacenters IA</h4>
+            <p class="watch-card-summary">
+              Si l'entraînement initial d'un grand modèle de langage nécessite des mégawatts-heures en continu, 
+              c'est la phase d'inférence (les milliards de requêtes envoyées chaque jour par les utilisateurs et APIs) 
+              qui concentre désormais l'essentiel de la consommation électrique et du refroidissement des centres de données.
+            </p>
+            <div class="watch-card-takeaway">
+              <strong>Impact SLAM :</strong> Sensibilisation à la sobriété dans les appels d'APIs tierces, mise en cache intelligente des résultats et sélection d'hébergeurs éco-responsables.
+            </div>
+          </article>
+
+          <article class="watch-card">
+            <div class="watch-card-meta">
+              <span class="watch-date"><i class="fa-regular fa-calendar"></i> 2025 - 2026</span>
+              <span class="watch-source">Frugalité Algorithmique</span>
+            </div>
+            <h4 class="watch-card-title">L'essor des « Small Language Models » (SLMs) et de la quantification : L'IA sobre et locale</h4>
+            <p class="watch-card-summary">
+              Face au gigantisme énergivore des LLMs, l'émergence de modèles compacts (1B à 7B paramètres) et de techniques 
+              de quantification (4-bit / 8-bit) permet de diviser la consommation par 5 à 10 tout en maintenant d'excellentes 
+              performances sur des tâches métiers précises, ouvrant la voie à une IA exécutable localement (Edge AI).
+            </p>
+            <div class="watch-card-takeaway">
+              <strong>Impact SLAM :</strong> Intégration de modèles légers et peu gourmands directement sur les serveurs applicatifs de l'organisation sans dépendance aux fermes de GPU énergivores.
+            </div>
+          </article>
+
+          <article class="watch-card">
+            <div class="watch-card-meta">
+              <span class="watch-date"><i class="fa-regular fa-calendar"></i> 2025</span>
+              <span class="watch-source">Green IT & Développeur</span>
+            </div>
+            <h4 class="watch-card-title">Éco-conception logicielle : Mesurer l'empreinte carbone du code avec CodeCarbon</h4>
+            <p class="watch-card-summary">
+              L'éco-conception s'impose comme une compétence clé du développeur moderne. Des bibliothèques Python comme 
+              CodeCarbon permettent de mesurer en direct la consommation électrique (en kWh) et l'équivalent CO2 émis 
+              par l'exécution d'un traitement informatique ou d'une requête complexe.
+            </p>
+            <div class="watch-card-takeaway">
+              <strong>Impact SLAM :</strong> Alignement avec le référentiel BTS SIO sur la responsabilité numérique : optimisation des requêtes SQL, limitation des boucles énergivores et architectures sobres.
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Contact (avec logos LinkedIn et GitHub mis en valeur) -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">06. Échange</span>
+          <h2 class="section-title">Contact</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Vous souhaitez échanger sur une opportunité de stage, d'alternance ou sur mes réalisations ? N'hésitez pas à me contacter !
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Colonne gauche : Réseaux & Coordonnées directes -->
+          <div class="contact-info-column">
+            <h3 class="contact-subheading">Mes réseaux professionnels</h3>
+            <p class="contact-text">
+              Retrouvez mon profil complet et mes projets de développement sur LinkedIn et GitHub grâce aux liens ci-dessous :
+            </p>
+
+            <!-- Boutons / Logos officiels LinkedIn et GitHub -->
+            <div class="prominent-social-cards">
+
+              <!-- Bouton LinkedIn avec logo officiel -->
+              <a href="https://www.linkedin.com/in/farah-mezdari-b2598538a/" target="_blank" rel="noopener noreferrer" class="social-brand-card linkedin-card" title="Profil LinkedIn de Farah Mezdari">
+                <div class="brand-icon-wrapper linkedin-icon-wrapper">
+                  <img src="assets/icons/linkedin.svg" alt="Logo officiel LinkedIn" class="brand-svg-logo">
+                </div>
+                <div class="brand-info">
+                  <span class="brand-network">LinkedIn</span>
+                  <span class="brand-handle">Farah Mezdari</span>
+                  <span class="brand-action">Accéder à mon profil LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                </div>
+              </a>
+
+              <!-- Bouton GitHub avec logo officiel -->
+              <a href="https://github.com/farahymezdari" target="_blank" rel="noopener noreferrer" class="social-brand-card github-card" title="Profil GitHub de Farah Mezdari (@farahymezdari)">
+                <div class="brand-icon-wrapper github-icon-wrapper">
+                  <img src="assets/icons/github.svg" alt="Logo officiel GitHub" class="brand-svg-logo">
+                </div>
+                <div class="brand-info">
+                  <span class="brand-network">GitHub</span>
+                  <span class="brand-handle">@farahymezdari</span>
+                  <span class="brand-action">Consulter mes dépôts & projets de code <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                </div>
+              </a>
+
+            </div>
+
+            <!-- Coordonnées directes -->
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="detail-content">
+                  <span class="detail-label">Adresse email</span>
+                  <div class="copy-email-wrap">
+                    <a href="mailto:farah.y.mezdari@gmail.com" class="detail-value email-link" id="email-text">farah.y.mezdari@gmail.com</a>
+                    <button class="btn-copy-email" id="btn-copy-email" title="Copier l'adresse email" aria-label="Copier l'adresse email">
+                      <i class="fa-regular fa-copy"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="detail-content">
+                  <span class="detail-label">Localisation</span>
+                  <span class="detail-value">France &bull; Mobilité envisageable</span>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="detail-content">
+                  <span class="detail-label">Statut actuel</span>
+                  <span class="detail-value status-badge-inline">À la recherche d'un stage / alternance</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Colonne droite : Formulaire de contact -->
+          <div class="contact-form-column">
+            <div class="form-wrapper-card">
+              <h3 class="form-title">Envoyez-moi un message</h3>
+              <p class="form-subtitle">Remplissez le formulaire ci-dessous, je vous répondrai très rapidement.</p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="contact-name">Votre nom <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" id="contact-name" name="name" placeholder="Ex: Jean Dupont" required>
+                  </div>
+                  <span class="field-error" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email">Votre adresse email <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" id="contact-email" name="email" placeholder="jean.dupont@entreprise.com" required>
+                  </div>
+                  <span class="field-error" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-subject">Objet du message <span class="required">*</span></label>
+                  <div class="input-with-icon">
+                    <i class="fa-solid fa-tag"></i>
+                    <input type="text" id="contact-subject" name="subject" placeholder="Ex: Opportunité d'alternance / Stage" required>
+                  </div>
+                  <span class="field-error" id="subject-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message">Message <span class="required">*</span></label>
+                  <textarea id="contact-message" name="message" rows="5" placeholder="Bonjour Farah, nous avons consulté votre profil et serions intéressés par votre candidature..." required></textarea>
+                  <span class="field-error" id="message-error"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="btn-submit-form">
+                  <span class="btn-text"><i class="fa-solid fa-paper-plane"></i> Envoyer le message</span>
+                  <span class="btn-loader" style="display: none;"><i class="fa-solid fa-spinner fa-spin"></i> Envoi en cours...</span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Notification Toast -->
+  <div class="toast-notification" id="toast" role="alert" aria-live="assertive">
+    <div class="toast-icon" id="toast-icon">
+      <i class="fa-solid fa-check"></i>
+    </div>
+    <div class="toast-message" id="toast-message">
+      Message envoyé avec succès !
+    </div>
+  </div>
+
+  <!-- Pied de page -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-brand">
+          <span class="brand-code">&lt;</span><span class="brand-name">Farah</span><span class="brand-dot">.</span><span class="brand-sub">Mezdari</span><span class="brand-code">/&gt;</span>
+        </a>
+        <p class="footer-tagline">
+          Étudiante en BTS SIO option SLAM &bull; Conception & Développement d'Applications Métiers
+        </p>
+      </div>
+
+      <div class="footer-links-wrap">
+        <ul class="footer-nav">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#experience">Expériences</a></li>
+          <li><a href="#tech-watch">Veille</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Logos officiels dans le footer également -->
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/farah-mezdari-b2598538a/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" title="LinkedIn - Farah Mezdari">
+            <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="footer-svg">
+          </a>
+          <a href="https://github.com/farahymezdari" target="_blank" rel="noopener noreferrer" class="footer-social-btn" title="GitHub - @farahymezdari (farah mezdari)">
+            <img src="assets/icons/github.svg" alt="GitHub" class="footer-svg">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 Farah Mezdari &bull; BTS SIO SLAM. Tous droits réservés.</p>
+        <a href="#hero" class="back-to-top" title="Haut de page" aria-label="Remonter en haut de page">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Fichier JavaScript principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
